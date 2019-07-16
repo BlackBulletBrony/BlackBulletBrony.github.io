@@ -1,6 +1,6 @@
 (function(){
-	console.log("you");
+	console.log("Loading...");
 	let e = document.createElement(`script`);
-	e.src = `https://blackbulletbrony.github.io/BB_Pixel_Minimap.user.js`;
+	e.src = `https://endlessnightnlr.github.io/MLPP/MLPP_Minimap.user.js`;
 	document.body.appendChild(e);
 })();
