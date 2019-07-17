@@ -6,9 +6,9 @@
 // @author       ConsoleBey#9737
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
-// @homepage     https://github.com/Vasco-Pixel/mz
-// @updateURL    https://raw.githubusercontent.com/Vasco-Pixel/mz/master/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/Vasco-Pixel/mz/master/minimap.user.js
+// @homepage     https://BlackBulletBrony.github.io
+// @updateURL    https://BlackBulletBrony.github.io/BB_Pixel_Minimap.user.js
+// @downloadURL  https://BlackBulletBrony.github.io/BB_Pixel_Minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -19,7 +19,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/BlackBulletBrony/BlackBulletBrony/master/';
+window.baseTepmlateUrl = 'https://BlackBulletBrony.github.io/';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
