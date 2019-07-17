@@ -1,3 +1,16 @@
+// ==UserScript==
+// @name         MLP Pixel Minimap
+// @namespace    http://tampermonkey.net/
+// @version      1.2.4
+// @description  My Little Pony Pixel (MLP Pixel) Minimap for PixelZone.io
+// @author       ConsoleBey and Endless Night
+// @match        https://pixelzone.io/*
+// @match        http://pixelzone.io/*
+// @homepage     https://Autumn-Blaze.github.io
+// @updateURL    https://Autumn-Blaze.github.io/MLPP_Minimap.user.js
+// @downloadURL  https://Autumn-Blaze.github.io/MLPP_Minimap.user.js
+// ==/UserScript==
+//
 console.log("Completed.");
 Number.prototype.between = function(a, b) {
   var min = Math.min.apply(Math, [a, b]),
