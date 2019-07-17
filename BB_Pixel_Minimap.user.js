@@ -2,8 +2,8 @@
 // @name         _B_B_ Pixel Minimap
 // @namespace    http://tampermonkey.net/
 // @version      1.2.5
-// @description  VP Minimap Zone
-// @author       ConsoleBey#9737
+// @description  _BLaCK_BuLLeT_ Minimap for PixelZone.io
+// @author       ConsoleBey
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
 // @homepage     https://BlackBulletBrony.github.io
