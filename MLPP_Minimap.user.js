@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.2.4
 // @description  My Little Pony Pixel (MLP Pixel) Minimap for PixelZone.io
-// @author       ConsoleBey and Endless Night
+// @author       ConsoleBey
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
 // @homepage     https://Autumn-Blaze.github.io
