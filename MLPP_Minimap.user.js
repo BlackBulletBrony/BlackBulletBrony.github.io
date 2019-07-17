@@ -6,9 +6,9 @@
 // @author       ConsoleBey
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
-// @homepage     https://Autumn-Blaze.github.io
-// @updateURL    https://Autumn-Blaze.github.io/MLPP_Minimap.user.js
-// @downloadURL  https://Autumn-Blaze.github.io/MLPP_Minimap.user.js
+// @homepage     https://BlackBulletBrony.github.io
+// @updateURL    https://BlackBulletBrony.github.io/MLPP_Minimap.user.js
+// @downloadURL  https://BlackBulletBrony.github.io/MLPP_Minimap.user.js
 // ==/UserScript==
 //
 console.log("Completed.");
