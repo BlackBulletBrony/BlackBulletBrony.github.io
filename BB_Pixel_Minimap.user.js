@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         _B_B_ Pixel Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.2.4
+// @version      1.2.5
 // @description  VP Minimap Zone
 // @author       ConsoleBey#9737
 // @match        https://pixelzone.io/*
@@ -12,7 +12,7 @@
 // @grant        none
 // ==/UserScript==
 
-console.log("bitch");
+console.log("Completed.");
 Number.prototype.between = function(a, b) {
   var min = Math.min.apply(Math, [a, b]),
     max = Math.max.apply(Math, [a, b]);
@@ -93,7 +93,7 @@ window.addEventListener('load', function () {
     drawCursor();
 
     document.getElementById("hide-map").onclick = function () {
-        console.log("This should do something, but it doesn't");
+        //console.log("This should do something, but it doesn't");
         toggle_show = false;
         document.getElementById("minimap-box").style.display = "none";
         document.getElementById("minimap-config").style.display = "none";
@@ -163,7 +163,7 @@ window.addEventListener('load', function () {
 
 function updateloop() {
 
-    console.log("Updating Template List");
+    //console.log("Updating Template List");
     // Get JSON of available templates
     var xmlhttp = new XMLHttpRequest();
     var url = window.baseTepmlateUrl + "templates/data.json?" + new Date().getTime();
@@ -177,7 +177,7 @@ function updateloop() {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 
-    console.log("Refresh got forced.");
+    //console.log("Refresh got forced.");
     image_list = [];
     loadTemplates();
 
@@ -292,7 +292,7 @@ function loadTemplates() {
 }
 
 function loadImage(imagename) {
-    console.log("    Load image " + imagename);
+    //console.log("    Load image " + imagename);
     image_list[imagename] = new Image();
     if (cachebreaker != null)
         image_list[imagename].src = window.baseTepmlateUrl +"images/"+template_list[imagename].name;
@@ -319,7 +319,7 @@ function drawTemplates() {
         var newheight = zoomlevel * image_list[template].height;
         var img = image_list[template];
         ctx_minimap.drawImage(img, xoff, yoff, newwidth, newheight);
-        console.log("Drawn!");
+        //console.log("Drawn!");
     }
 }
 
