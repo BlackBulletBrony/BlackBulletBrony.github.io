@@ -79,7 +79,7 @@ window.addEventListener('load', function () {
     drawCursor();
 
     document.getElementById("hide-map").onclick = function () {
-        console.log("This should do something, but it doesn't");
+        //console.log("This should do something, but it doesn't");
         toggle_show = false;
         document.getElementById("minimap-box").style.display = "none";
         document.getElementById("minimap-config").style.display = "none";
@@ -149,7 +149,7 @@ window.addEventListener('load', function () {
 
 function updateloop() {
 
-    console.log("Updating Template List");
+    //console.log("Updating Template List");
     // Get JSON of available templates
     var xmlhttp = new XMLHttpRequest();
     var url = window.baseTepmlateUrl + "templates/data.json?" + new Date().getTime();
@@ -163,7 +163,7 @@ function updateloop() {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 
-    console.log("Refresh got forced.");
+    //console.log("Refresh got forced.");
     image_list = [];
     loadTemplates();
 
@@ -250,7 +250,7 @@ function loadTemplates() {
             continue
         if (!y_window.between(temp_y-range*1, temp_yb+range*1))
             continue
-        console.log("Template " + template + " is in range!");
+        //console.log("Template " + template + " is in range!");
         // console.log(x_window, y_window);
         needed_templates.push(template);
     }
@@ -278,7 +278,7 @@ function loadTemplates() {
 }
 
 function loadImage(imagename) {
-    console.log("    Load image " + imagename);
+    //console.log("    Load image " + imagename);
     image_list[imagename] = new Image();
     if (cachebreaker != null)
         image_list[imagename].src = window.baseTepmlateUrl +"images/"+template_list[imagename].name;
@@ -305,7 +305,7 @@ function drawTemplates() {
         var newheight = zoomlevel * image_list[template].height;
         var img = image_list[template];
         ctx_minimap.drawImage(img, xoff, yoff, newwidth, newheight);
-        console.log("Drawn!");
+        //console.log("Drawn!");
     }
 }
 
